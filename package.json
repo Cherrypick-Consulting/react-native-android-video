@@ -1,0 +1,25 @@
+{
+    "name": "react-native-android-video",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "author": {
+        "name": "Alon Shprung",
+        "email": "alonshp1@gmail.com"
+    },
+    "license": "MIT",
+    "keywords": [
+        "react-native",
+        "react-component",
+        "ios",
+        "android",
+        "video"
+    ],
+    "peerDependencies": {
+        "react": "16.8.3",
+        "react-native": "0.59.9"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.1"
+    }
+}
