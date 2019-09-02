@@ -54,7 +54,7 @@ import AndroidVideo from 'react-native-android-video'
 // In your render function
 <AndroidVideo
   ref={(ref) => {
-  this.player = ref
+    this.player = ref
   }}
   style={styles.video}
   source={this.props.videoUrl}
