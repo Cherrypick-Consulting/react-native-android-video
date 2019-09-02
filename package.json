@@ -15,6 +15,13 @@
         "android",
         "video"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cherrypick-Consulting/react-native-android-video.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Cherrypick-Consulting/react-native-android-video/issues"
+    },
     "peerDependencies": {
         "react": "16.8.3",
         "react-native": "0.59.9"
