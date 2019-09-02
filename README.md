@@ -35,11 +35,11 @@ import com.cherrypick.androidvideo.RNAndroidVideoPackage;
 ```java
 @Override
 protected List<ReactPackage> getPackages() {
-return Arrays.<ReactPackage>asList(
-new MainReactPackage(),
-new RNAndroidVideoPackage(),
-...
-);
+  return Arrays.<ReactPackage>asList(
+    new MainReactPackage(),
+    new RNAndroidVideoPackage(),
+    ...
+  );
 }
 ```
 
@@ -53,17 +53,17 @@ import AndroidVideo from 'react-native-android-video'
 
 // In your render function
 <AndroidVideo
-ref={(ref) => {
-this.player = ref
-}}
-style={styles.video}
-source={this.props.videoUrl}
-paused={!this.props.isPlaying}
-rate={this.props.playerRate}
-onPlayerReady={this._onVideoReady}
-onPlayerLoading={this._onVideoPlayerLoading}
-onProgress={this._onVideoPlayerProgress}
-onPlayerError={this._onVideoError}
+  ref={(ref) => {
+  this.player = ref
+  }}
+  style={styles.video}
+  source={this.props.videoUrl}
+  paused={!this.props.isPlaying}
+  rate={this.props.playerRate}
+  onPlayerReady={this._onVideoReady}
+  onPlayerLoading={this._onVideoPlayerLoading}
+  onProgress={this._onVideoPlayerProgress}
+  onPlayerError={this._onVideoError}
 />
 ```
 ---
