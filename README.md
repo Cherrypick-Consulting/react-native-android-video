@@ -86,7 +86,7 @@ Payload:
 
 Property | Type | Description
 --- | --- | ---
-duration | number | The duration of the media in seconds
+duration | number | The duration of the media in milliseconds
 
 #### onPlayerLoading
 >Callback function that is called when the player is start or stop buffering.
