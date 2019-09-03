@@ -121,3 +121,13 @@ Example:
 ```javascript
 this.player.seek(450)
 ```
+
+## Authors
+
+* [Alon Shprung](https://github.com/alonshp) - Initial code 
+
+See also the list of [contributors](https://github.com/Cherrypick-Consulting/react-native-android-video/graphs/contributors) who participated in this project.
+
+## Contributing
+
+Pull requests are welcome. 
