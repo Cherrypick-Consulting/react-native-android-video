@@ -1,4 +1,6 @@
 # React Native Android Video
+[![Version](https://img.shields.io/npm/v/react-native-android-video.svg)](https://www.npmjs.com/package/react-native-android-video)
+
 >**react-native-android-video**
 >
 >Android ExoPlayer `<Video />` component for react-native.
