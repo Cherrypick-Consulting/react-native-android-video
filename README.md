@@ -1,7 +1,11 @@
 # React Native Android Video
 [![Version](https://img.shields.io/npm/v/react-native-android-video.svg)](https://www.npmjs.com/package/react-native-android-video)
 
-**Why did we create this package?
+**react-native-android-video**
+
+Android ExoPlayer `<AndroidVideo />` component for react-native.
+
+## Why did we create this package?
 
 We found [tons of issues](https://github.com/react-native-community/react-native-video/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+android) with the popupler [react-native-video](https://github.com/react-native-community/react-native-video) package when running on Android. We have received reports from our users that on some Android devices the video just won't play and on others it does play, however on "seek()" operations for example, it would break down and stop working. 
 
@@ -9,9 +13,6 @@ We took a deep dive into [react-native-video](https://github.com/react-native-co
 
 Therefore we decided to create this new package for a light-weight, easy to use solution that enables react-native developers to integrate video ExoPlayer in their app for Android platform with 10x better performance than [react-native-video](https://github.com/react-native-community/react-native-video).
 
-**react-native-android-video**
-
-Android ExoPlayer `<Video />` component for react-native.
 
 ## Installation
 
